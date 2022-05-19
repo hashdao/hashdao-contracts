@@ -1,0 +1,34 @@
+{
+  "name": "hash-contracts",
+  "version": "1.0.0",
+  "description": "Smart Contracts for HashDAO ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hashdao/hash-contracts.git"
+  },
+  "author": "Robert Campbell",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/hashdao/hash-contracts/issues"
+  },
+  "homepage": "https://github.com/hashdao/hash-contracts#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13",
+    "@nomiclabs/hardhat-etherscan": "^3.0.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.6.4",
+    "hardhat": "^2.9.3",
+    "hardhat-deploy": "^0.11.4",
+    "web3": "^1.7.3"
+  },
+  "dependencies": {
+    "hardhat-deploy-ethers": "^0.3.0-beta.13"
+  }
+}
